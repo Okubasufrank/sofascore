@@ -43,11 +43,11 @@ h1{
 
 
 .bta{
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .bta:hover{
-    color: rgb(189, 168, 63);
+    color: rgb(238, 236, 133);
 }
 
 
@@ -67,6 +67,10 @@ a, button{
     border-radius: 10px;
 
 }
+/* .cta li:hover{
+    background-color: rgb(238, 236, 133);
+} */
+
 .cta button:hover{
     background-color: rgb(238, 236, 133);
 
@@ -75,4 +79,17 @@ a, button{
 .nav{
     display: flex;
     
+}
+
+.news{
+    width: 80%;
+    height: 200px;
+    padding: 30px;
+    margin: 20px;
+    background-color: rgb(112, 70, 70);
+    padding-left: 0px;
+    border-radius: 10px;
+    background-image: url(./images/two.jpeg);
+    /* background: fixed; */
+
 }
