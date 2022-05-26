@@ -88,7 +88,7 @@ a, button{
     display: flex;
     justify-content: flex;
     align-items: center;
-    /* margin-top: 10px; */
+    margin-top: 10px;
     /* padding: 30px 7%; */
 
     
@@ -98,6 +98,7 @@ a, button{
     width: 5%;
     height: 560px;
     margin-right: 10px;
+    /* padding-right: 20px; */
     background-color: rgb(102, 25, 173);
 }
 
@@ -105,25 +106,62 @@ a, button{
     width: 95%;
     background-color: rgb(30, 32, 32);
     height: 560px;
-    margin-top: 10px;
-    margin-right: 20px;
-    padding: 20px;
-    border-radius: 10px;
+    margin-right: 15px;
+    padding-top: 2px;
+    padding-right: 10px;
+    /* border-radius: 10px; */
 
 }
 
 
 .news{
     width: 100%;
-    height: 300px;
+    height: 200px;
     padding: 30px;
-    /* ali */
     margin: 5px;
     margin-right: 10px;
     background-color: rgb(112, 70, 70);
-    border-radius: 10px;
-    /* background-image: url(./images/two.jpeg); */
+    border-radius-top: 10px;
     background-image: cover;
-    /* background: fixed; */
-
 }
+
+
+.torna{
+    width: 100%;
+    height: 340px;
+    /* padding: 30px; */
+    margin: 5px;
+    margin-right: 10px;
+    background-color: rgb(112, 70, 70);
+    background-image: cover;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.street{
+    width: 33.3%;
+    height: auto;
+    background-color: brown;
+}
+
+.dunk{
+    width: 34.3%;
+    height: auto;
+    background-color: rgb(202, 47, 47);
+}
+
+.tont{
+    width: 33.3%;
+    height: auto;
+    background-color: rgb(80, 17, 17);
+    
+}
+
+
+/* background-image: url("../pics/frank.png");
+    overflow: hidden;
+    height: 750px;
+    background-size: cover;
+    object-fit: contain; */
+    
