@@ -14,10 +14,15 @@ header{
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: 30px 7%;
-    /* background-color: rgb(199, 192, 184); */
-    opacity: 0.7;
-    background-image: url(./images/bball.jpg);
+    padding: 5px 7%;
+    background-color: D9D9D9;
+    /* opacity: 0.7; */
+    /* background-image: url(./images/bball.jpg); */
+}
+.img{
+    background-image: cover;
+    width: 100%;
+    height: 100%;
 }
 
 
@@ -28,7 +33,7 @@ header{
 
 .nav_links, li{
     display: inline-block;
-    padding: 0px 20px;
+    padding: 0px 1px;
 }
 
 h1{
@@ -56,9 +61,9 @@ h1{
 a, button{
     margin-left: 20px;
     text-decoration: none;
-    background-color: transparent;
+    /* background-color: #0000; */
     font-size: 15px;
-    color: rgb(255, 255, 255);
+    /* color: rgb(255, 255, 255); */
     width: 90px;
     height: 35px;
     /* font-weight: 200; */
@@ -74,7 +79,7 @@ a, button{
 } */
 
 .cta button:hover{
-    background-color: rgb(131, 129, 40);
+    background-color: rgb(201, 77, 77);
     color: black;
 
 }
@@ -96,18 +101,20 @@ a, button{
 
 .ver{
     width: 5%;
-    height: 560px;
+    height: 548px;
+    margin-top: 0px;
+    /* margin-bottom: 23px; */
     margin-right: 10px;
     /* padding-right: 20px; */
-    background-color: rgb(102, 25, 173);
+    background-color: rgb(223, 22, 22);
 }
 
 .horz{
     width: 95%;
-    background-color: rgb(30, 32, 32);
+    background-color: rgb(0, 0, 0);
     height: 560px;
     margin-right: 15px;
-    padding-top: 2px;
+    padding-top: 0px;
     padding-right: 10px;
     /* border-radius: 10px; */
 
@@ -131,8 +138,8 @@ a, button{
     height: 340px;
     /* padding: 30px; */
     margin: 5px;
-    margin-right: 10px;
-    background-color: rgb(112, 70, 70);
+    /* margin-right: 10px; */
+    background-color: rgb(0, 0, 0);
     background-image: cover;
     display: flex;
     justify-content: space-between;
@@ -142,20 +149,43 @@ a, button{
 .street{
     width: 33.3%;
     height: auto;
+    margin-right: 5px;
     background-color: brown;
 }
 
 .dunk{
     width: 34.3%;
     height: auto;
+    margin-right: 5px;
     background-color: rgb(202, 47, 47);
 }
 
 .tont{
     width: 33.3%;
     height: auto;
+    /* margin-right: 5px; */
     background-color: rgb(80, 17, 17);
     
+}
+.street img{
+    height: 100%;
+    width: 100%;
+    /* object-fit: contain; */
+    background-size: cover;
+}
+
+.dunk img{
+    height: 100%;
+    width: 100%;
+    /* object-fit: contain; */
+    background-size: cover;
+}
+
+.tont img{
+    height: 100%;
+    width: 100%;
+    /* object-fit: contain; */
+    background-size: cover;
 }
 
 
